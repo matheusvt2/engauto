@@ -1,0 +1,14 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  web1:
+    image: dockercloud/hello-world
+    ports:
+      - "10000:80"
+  web2:
+    image: dockercloud/hello-world
+    ports:
+      - "10001:80"
+  web3:
+    image: dockercloud/hello-world
+    ports:
+      - "10002:80"

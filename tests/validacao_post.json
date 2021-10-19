@@ -1,0 +1,8 @@
+{
+  "job": "Remediação",
+  "server": "192.168.56.101",
+  "server_user": "matheus",
+  "server_pass": "1234",
+  "script": "list_files.py",
+  "returncode": 0
+}
